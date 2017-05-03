@@ -1,0 +1,8 @@
+server:
+  type: default
+
+metrics:
+  reporters:
+    - type: console
+      timeZone: UTC
+      output: stdout
