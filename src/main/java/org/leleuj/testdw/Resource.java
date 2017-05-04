@@ -1,5 +1,6 @@
 package org.leleuj.testdw;
 
+import com.codahale.metrics.annotation.ExceptionMetered;
 import com.codahale.metrics.annotation.Timed;
 
 import javax.ws.rs.GET;
@@ -14,6 +15,7 @@ public class Resource {
 
     @GET
     @Timed
+    @ExceptionMetered
     public String test() {
         return "test : " + new Date();
     }
