@@ -29,5 +29,8 @@ scrape_configs:
   - job_name: 'testdw'
 
     metrics_path: '/prometheusMetrics'
+
     static_configs:
       - targets: ['testdw:8081']
+        labels:
+          service: api
