@@ -1,4 +1,4 @@
-package org.leleuj.testdw;
+package org.leleuj.testdw.app;
 
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;

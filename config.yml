@@ -6,3 +6,10 @@ server:
 #    - type: console
 #      timeZone: UTC
 #      output: stdout
+
+logging:
+  level: INFO
+  loggers:
+    org.leleuj.testdw: INFO
+  appenders:
+    - type: console

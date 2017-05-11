@@ -34,7 +34,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-mainClassName = 'org.leleuj.testdw.App'
+mainClassName = 'org.leleuj.testdw.app.App'
 
 shadowJar {
     mergeServiceFiles()

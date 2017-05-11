@@ -1,4 +1,4 @@
-package org.leleuj.testdw;
+package org.leleuj.testdw.app;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.Configuration;
